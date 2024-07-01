@@ -1,0 +1,40 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navigation {
+  margin: 20px 0;
+}
+
+.page-container {
+  display: none;
+}
+
+.page-container.active {
+  display: block;
+}
+
+.pdf-page {
+  border: 2px solid black;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.spawner-container {
+  position: relative;
+  float: right;
+  width: 200px;
+  height: 100%;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.spawner {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
